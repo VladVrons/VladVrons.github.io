@@ -1,0 +1,12 @@
+.block1 { 
+    width: 90%; 
+    height: 15%;
+    background: rgb(255, 3, 3);
+    padding: 35px;
+    padding-right: 35px; 
+    border: solid 1px black; 
+    float:center;
+    margin: 0;
+    text-align: right; 
+    align-self: center;
+   }
