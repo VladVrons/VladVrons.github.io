@@ -10,3 +10,38 @@
     text-align: right; 
     align-self: center;
    }
+.td1
+{
+    margin-left: auto;
+    margin-right: auto;
+    height: 15%;
+    background: #3399ff;
+ 
+
+    border: solid 1px black;
+    
+}
+td.td2
+{
+    width:"10%"; 
+    background: aquamarine;
+    text-align: right;
+}
+td.td3
+{
+    width: 70%;
+    background: #ffffff;
+    text-align: center;
+}
+td.td4
+{
+    width: 20%;
+    background: aquamarine;
+    text-align: left;
+}
+ul
+{
+ list-style-type: circle;   
+ list-style-position: inside;
+
+}
