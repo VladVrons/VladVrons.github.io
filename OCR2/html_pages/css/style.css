@@ -1,47 +1,81 @@
-.block1 { 
-    width: 90%; 
-    height: 15%;
-    background: rgb(255, 3, 3);
-    padding: 35px;
-    padding-right: 35px; 
-    border: solid 1px black; 
-    float:center;
-    margin: 0;
-    text-align: right; 
-    align-self: center;
-   }
-.td1
+*
 {
-    margin-left: auto;
-    margin-right: auto;
+box-sizing: border-box;
+
+}
+
+   .header1
+{
+    position: relative;
     height: 15%;
     background: #3399ff;
- 
+    border: solid black 1px;
+}
 
-    border: solid 1px black;
+   .td1
+{
+
+    position: absolute;
+    top: 50%;
+    left: 5px ;
+    margin-top: -0.625em;
+    background: #ffffff;
+    text-align: left;
     
 }
-td.td2
+.td2
 {
-    width:"10%"; 
-    background: aquamarine;
-    text-align: right;
-}
-td.td3
-{
-    width: 70%;
-    background: #ffffff;
-    text-align: center;
-}
-td.td4
-{
-    width: 20%;
-    background: aquamarine;
-    text-align: left;
-}
-ul
-{
- list-style-type: circle;   
- list-style-position: inside;
 
+    position: absolute;
+    top: 50%;
+    right: 5px ;
+    margin-top: -0.625em;   
+}
+
+
+.menubl
+{
+    position: relative;
+    height: 85%;
+    width: 10%;
+    text-align: right;
+    background: aquamarine;
+    border: solid black 1px;
+}
+
+.tdm
+{
+    display: table-cell;
+    position: absolute;
+    top: 40%;
+    right: 5px;
+    margin-top: -0.625em;   
+}
+.dowmbl
+{
+    position: relative;
+    height: 15%;
+    background: #3399ff;
+    border: solid black 1px;
+
+}
+
+.right
+{
+    position: relative;
+    height: 15%;
+    background:#f399ff;
+    border: solid black 1px;
+    float: right;
+}
+   .text3
+{
+
+    position: absolute;
+    top: 50%;
+    left: 5px ;
+    margin-top: -0.625em;
+    background: #ffffff;
+    text-align: left;
+    
 }
