@@ -3,12 +3,12 @@
     <title >Lab 3</title>
     <link rel="stylesheet" href="css/Struct.css">
     <link rel="stylesheet" href="css/Texts.css">
-   
+    <script src="scripts/scr1.js"></script> 
 </head>
 
 <body>
     <div class="header">
-        <div class="wtext"> Header &nbsp; </div>
+        <div class="wtext" id="IDheader"> Header &nbsp; </div>
         <div class="text2"> text </div>
       
      </div>
@@ -26,23 +26,24 @@
    </div>
    
    <div class="main">
-       <div class="maintext" id="maintext"> maintexttt </div> 
-      <input type="button" value="Щелчок" onclick="this.disabled=1;  this.value='Скрипт сработал'; ">
-       <input id="GoButton" type="button" value="Go" onclick="goClicked()">
-       <script src="scripts/scr1.js"></script>
-      
+    <input id="Button1" type="button" value="Task1" onclick="Clicked1()">
+    <input id="Button2" type="button" value="Task2" onclick="Clicked2()">
+    <input id="colorpick " type="color">
+       <div class="maintext" id="maintext"> Основа = 5 <br> Висота = 7 <br> 
+       </div>            
     </div> 
 
    <div class="rightup">  
-       <div class="righttext"> Right text  </div> 
+        
+       <div id="rtext" class="righttext"> Up text  </div> 
    </div>
 
     <div class="rightdown"> 
-       <div class="righttext">Left text</div> 
+       <div id="ltext" class="righttext">Down text</div> 
     </div>
    
     <div class="footer">
-       <div class="wtext"> Footer &nbsp; </div>
+       <div class="wtext" > Footer &nbsp; </div>
        <div class="text2"> text </div>
     </div>
    
