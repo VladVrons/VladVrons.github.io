@@ -1,6 +1,6 @@
-let a=5;
 
 function goClicked()
 {
+    alert("hey");
 document.getElementById("maintext").innerHTML="yoo";
 }
