@@ -3,33 +3,43 @@
     <title >Lab 3</title>
     <link rel="stylesheet" href="css/Struct.css">
     <link rel="stylesheet" href="css/Texts.css">
-    <script src="scripts/scr1.js"></script> 
+  
 </head>
 
-<body>
+<body contenteditable="true";>
     <div class="header">
-        <div class="wtext" id="IDheader"> Header &nbsp; </div>
-        <div class="text2"> text </div>
-      
-     </div>
+        <div class="wtext" id="header"> Header &nbsp; </div>      
+        <div class="text2" >  text
+        </div>  
+    </div>
 
    <div class="menu">
        <div class="links">
-        <h3>Menu</h3>
+        <h3 id="menu">Menu</h3>
         <ul >
-            <li> <a href="https://vladvrons.github.io/OCR2/index">&nbsp;  Main </a> </li>
+            <li> <a href="https://vladvrons.github.io/OCR2/index">2 Page </a> </li>
             <li> <a href="https://vladvrons.github.io/OCR2/page3">3 Page </a> </li>
-            <li> <a href="https://vladvrons.github.io/OCR2/index">4 Page </a></li>
-            <li> <a href="https://vladvrons.github.io/OCR2/index">5 Page </a></li>
+            <li> <a href="https://vladvrons.github.io/OCR2/index">4 Page </a> </li>
+            <li> <a href="https://vladvrons.github.io/OCR2/index">5 Page </a> </li>
         </ul> 
        </div>
    </div>
    
+
+
    <div class="main">
 
-    <input id="Button1" type="button" value="Task1" onclick="Clicked1()">
-    <input id="Button2" type="button" value="Task2" onclick="Clicked2()">
-    <input id="Button3" type="button" value="Task3" onclick="Clicked3()">  
+    <div class="myform">
+        <form>
+            <input id="Digits" type="text" placeholder="Введіть числа">
+            <input id="button3" type="button" value="Task3" onclick="Minimal()">
+        </form>
+    </div>
+
+    <input type="button" value="Task1" onclick="Clicked1()">
+    <input type="button" value="Task2" onclick="Clicked2()">
+    <input type="button" value="Task4" onclick="Clicked4()">  
+    <input type="button" value="Task6" onclick="Clicked6()">
     <input id="colorpick" type="color" >
 
 
@@ -40,6 +50,7 @@
    <div class="rightup">  
         
        <div id="rtext" class="righttext"> Up text  </div> 
+
    </div>
 
     <div class="rightdown"> 
@@ -47,8 +58,8 @@
     </div>
    
     <div class="footer">
-       <div class="wtext" > Footer &nbsp; </div>
+       <div class="wtext" id="footer" > Footer &nbsp; </div>
        <div class="text2"> text </div>
     </div>
-   
+    <script src="scripts/scr1.js"></script> 
 </body>

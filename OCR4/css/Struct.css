@@ -1,0 +1,58 @@
+div
+{
+    position: relative;
+    outline: black solid 2px;
+    outline-offset: -1px;
+}
+
+.header
+{
+    float: left;
+   height: 15%; 
+   width: 100%;
+   background-color: lightblue;
+   
+}
+.menu
+{
+    position: relative;
+    height: 85%;
+    width: 10%;
+    background-color: aquamarine;
+    float: left;
+
+}
+
+
+.main
+{
+    height: 70%;
+    width: 70%;
+    background-color:white;
+    float: left;
+    text-align: right;
+}
+
+.rightup
+{
+ 
+    height: 35%;
+    width: 20%;
+    background-color: aquamarine;
+    float: right;
+}
+.rightdown
+{
+    height: 35%;
+    width: 20%;
+    background-color: rgb(224, 191, 142);
+    float: right;
+}
+
+.footer
+{
+    height: 15%;
+    width: 90%;
+    background-color: lightblue;
+    float: right;
+}

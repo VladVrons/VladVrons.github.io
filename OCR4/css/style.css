@@ -1,0 +1,81 @@
+*
+{
+box-sizing: border-box;
+
+}
+
+   .header1
+{
+    position: relative;
+    height: 15%;
+    background: #3399ff;
+    border: solid black 1px;
+}
+
+   .td1
+{
+
+    position: absolute;
+    top: 50%;
+    left: 5px ;
+    margin-top: -0.625em;
+    background: rgb(255, 255, 255);
+    text-align: left;
+    
+}
+.td2
+{
+
+    position: absolute;
+    top: 50%;
+    right: 5px ;
+    margin-top: -0.625em;   
+}
+
+
+.menubl
+{
+    position: relative;
+    height: 85%;
+    width: 10%;
+    text-align: right;
+    background: aquamarine;
+    border: solid black 1px;
+}
+
+.tdm
+{
+    display: table-cell;
+    position: absolute;
+    top: 40%;
+    right: 5px;
+    margin-top: -0.625em;   
+}
+.dowmbl
+{
+    position: relative;
+    height: 15%;
+    background: #3399ff;
+    border: solid black 1px;
+
+}
+
+.right
+{
+    position: relative;
+    height: 15%;
+    background:#f399ff;
+    border: solid black 1px;
+    float: right;
+}
+   .text3
+{
+
+    position: absolute;
+    top: 50%;
+    left: 5px ;
+    margin-top: -0.625em;
+    background: #ffffff;
+    text-align: left;
+    
+}
