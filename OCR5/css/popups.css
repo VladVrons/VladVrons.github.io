@@ -58,46 +58,47 @@
     background: url(img/Texture1.bmp) repeat-x;
     position: absolute;
     left: 5px;
-    top: calc(20% + 35px);
+    top: calc(20% + 25px);
     
     padding: 5px;
     width: calc(80% - 10px);
     height: calc(80% - 50px);
-    outline: rgb(0, 88, 252) thin 10px;
+    border: 5px solid #3700ff;
+    animation-delay: 2s;
     
 }
 
-@keyframes slide {
+@keyframes
+slide {
     0% {
       left: 0;
       top: 0;
     }
-    50% {
-      left: 244px;
-      top: 100px;
-    }
+  
     100% {
-      left: 488px;
-      top: 0;
+      left: 90%;
+      top: 90%;
     }
   }
-  .stage {
-    background: #eaeaed;
-    border-radius: 6px;
-    height: 150px;
-    position: relative;
-    min-width: 538px;
-  }
-  .anim:hover .ball {
-    animation: slide 2s linear;
+
+ .moveball {
+    animation: slide 2s infinite;
   }
   .ball {
     background: #2db34a;
     border-radius: 50%;
     height: 50px;
-    position: absolute;
+    position: relative;
     width: 50px;
   }
+
+  .start
+  {
+    position: relative;
+    float: right;
+    top: 50px;
+  }
+
   figure {
     margin: 0;
   }
