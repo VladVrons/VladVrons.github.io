@@ -1,3 +1,14 @@
+
+
+
+function getRandomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+  }
+function getRadians(degrees) 
+{
+	return (Math.PI / 180) * degrees;
+}
+
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 var ballRadius = 10;
@@ -28,4 +39,6 @@ function draw() {
     x += dx;
     y += dy;
 }
+
+
 
