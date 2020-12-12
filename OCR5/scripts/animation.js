@@ -49,9 +49,11 @@ function draw() {
     
     if(x + dx > canvas.width-ballRadius || x + dx < ballRadius) {
         dx = -dx;
+        addEvent("Touched the wall");
     }
     if(y + dy > canvas.height-ballRadius || y + dy < ballRadius) {
         dy = -dy;
+        addEvent("Touched the wall");
     }
     
     x += dx;
@@ -60,9 +62,11 @@ function draw() {
 
     if(x2 + dx2 > canvas.width-ballRadius || x2 + dx2 < ballRadius) {
         dx2 = -dx2;
+        addEvent("Touched the wall");
     }
     if(y2 + dy2 > canvas.height-ballRadius || y2 + dy2 < ballRadius) {
         dy2 = -dy2;
+        addEvent("Touched the wall");
     }
     x2 += dx2;
     y2 += dy2;
@@ -73,6 +77,7 @@ function draw() {
 
     if( ( Math.abs((x+dx) - (x2+dx2)) < ballRadius*1.5) && ( Math.abs((y+dy) - (y2+dy2)) < ballRadius*1.5) )
     {
+        addEvent("Collision!!!");
         dx=0;
         dy=0;
         dx2=0;

@@ -10,10 +10,14 @@
 }
 .maintext
 {
-    position: relative;
-    right: 45%;
-    top: 45%;
+    position: absolute;
+    left: 40%;
     outline: none;
+    top: 15%;
+    width: 15%;
+    height: 80%;
+    
+ overflow: auto;
 }
 .righttext
 {

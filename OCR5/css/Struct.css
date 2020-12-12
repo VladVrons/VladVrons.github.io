@@ -24,6 +24,15 @@ div
 }
 
 
+.playb
+{
+    outline: none;
+    position: absolute;
+    left: 50%;
+    
+}
+
+
 .main
 {
     height: 70%;
