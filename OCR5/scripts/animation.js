@@ -14,7 +14,7 @@ var ctx = canvas.getContext("2d");
 var ballRadius = 10;
 var x = ballRadius
 var y = ballRadius + getRandomInt(canvas.height-30)
-var x2 = ballRadius+ getRandomInt(canvas.width);
+var x2 = ballRadius+ getRandomInt(canvas.width-30);
 var y2 = ballRadius;
 
 var dx = 1;
@@ -39,13 +39,17 @@ function drawBall2() {
     ctx.fillStyle = "red";
     ctx.fill();
     ctx.closePath();
+    
 }
+
+
 
 
 function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     drawBall1();
     drawBall2();
+ 
     
     if(x + dx > canvas.width-ballRadius || x + dx < ballRadius) {
         dx = -dx;
