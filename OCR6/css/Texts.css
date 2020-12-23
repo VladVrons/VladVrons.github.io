@@ -1,0 +1,50 @@
+
+.links
+{
+ 
+    position: absolute;
+    outline: none;
+    text-align: right;
+    top: 30%;
+    right: 5pt;
+}
+.maintext
+{
+    position: absolute;
+    left: 40%;
+    outline: none;
+    top: 15%;
+    width: 15%;
+    height: 80%;
+    
+ overflow: auto;
+}
+.righttext
+{
+    top: 45%;
+    outline: none;
+}
+.wtext
+{
+    width: 10%;
+    left: 10px;
+    text-align: right;
+    position: absolute;
+    float: left;
+    background-color: white;
+    top: 45%;
+}
+.text2
+{
+    position: absolute;
+    right: 10px;
+    top: 45%;
+    outline: none;
+}
+.myform
+{
+    outline: none;
+
+    text-align: left;
+    position: absolute;
+}
