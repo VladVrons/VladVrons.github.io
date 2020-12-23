@@ -87,10 +87,6 @@ function draw() {
         dx2=0;
         dy2=0;
         document.getElementById("startb").innerHTML="Reload";
-
-        xi = getRandomInt(910) +10;
-   
-         yi2 = getRandomInt(370) +10
        
     }
 
