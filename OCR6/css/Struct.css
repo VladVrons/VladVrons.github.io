@@ -2,7 +2,7 @@ div
 {
     position: relative;
     outline: black solid 2px;
-    outline-offset: -1px;
+    
 }
 
 .header
