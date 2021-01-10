@@ -27,6 +27,10 @@ function drawBall4()
 }
 
 
+function BE()
+{
+    console.log("ghj468")
+}
 
 function draw2()
  {
