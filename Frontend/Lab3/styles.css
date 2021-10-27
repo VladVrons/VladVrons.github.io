@@ -1,0 +1,103 @@
+
+
+div{
+    text-align: center;
+}
+p{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:larger;
+    top: calc(50% - 30px);
+}
+
+.container{
+  position: absolute;
+  
+  height: 98%;
+  width: 99%;
+  border: brown 1px solid;
+}
+.menu{
+position: relative;
+float: left;
+
+
+background-color: rgb(188, 203, 255);
+height: 65%;
+width: 20%;
+}
+
+.main{
+    position: relative;
+    background-color: rgb(133, 196, 255);
+    float: right;   
+    height: 65%;
+    width: 80%;
+}
+
+.middlebar{
+    position: relative;
+    float: left;
+    background-color: rgb(63, 88, 230);
+    height: 20%;
+    width: 100%;
+}
+
+.footer{
+    position: relative;
+    float: left;
+    background-color: rgb(231, 255, 10);
+    height: 15%;
+    width: 100%;
+}
+
+
+
+
+
+.container2{
+  top: 110%;
+  position: absolute;
+  display: flex;
+  align-self: flex-end;
+  flex-wrap: wrap;
+  height: 98%;
+  width: 99%;
+  border: brown 1px solid;
+  
+}
+.menu2{
+position: relative;
+background-color: rgb(188, 203, 255);
+height: 65%;
+width: 20%;
+}
+
+.main2{
+    position: relative;
+    background-color: rgb(133, 196, 255);
+    float: right;   
+    height: 65%;
+    width: 80%;
+}
+
+.middlebar2{
+    position: relative;
+    float: left;
+    background-color: rgb(63, 88, 230);
+    height: 20%;
+    width: 100%;
+}
+
+.footer2{
+    position: relative;
+    float: left;
+    background-color: rgb(231, 255, 10);
+    height: 15%;
+    width: 100%;
+}
+
+
+
+

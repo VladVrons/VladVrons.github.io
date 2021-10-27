@@ -1,0 +1,87 @@
+table
+{
+ 
+ width: 90%;
+ height: 200px;
+ border-collapse: collapse;
+}
+tr
+{
+    border-collapse: collapse;
+    height: 30px;
+}
+td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+   
+}
+
+
+.line2
+{
+    background-color: #03A678;
+     
+}
+.line2:hover
+{
+    background-color: orange;
+}
+
+.line1:hover
+{
+    background-color: #03A678;
+}
+.line1
+{
+    background-color: orange;
+}
+
+.div1{
+    position:relative;
+    left: 100px;
+    top: 100px;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+
+.div2{
+    position:relative;
+    top: 50px;
+    left: 50px;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+.div3{
+    position:relative;
+    top: 25%;
+    left: 25%;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.div4{
+    position:absolute;
+   
+    background-color: black;
+    height: 350px;
+    top: -25px;
+    left: 145px;
+    width: 10px;
+
+}
+.div5{
+    position:absolute;
+   
+    background-color: black;
+    height: 10px;
+    left: -25px;
+    top: 145px;
+    width: 350px;
+
+}
