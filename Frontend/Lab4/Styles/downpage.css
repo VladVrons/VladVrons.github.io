@@ -109,3 +109,51 @@
     height: 250px;
 
   }
+  .truck{
+    position: relative;
+    width: 50%;
+    left: 20px;
+  }
+
+  .circle2{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 46%;
+    top: 46%;
+    margin: 40px;
+
+    border-radius: 35px;
+    border: none;
+    background: rgb(23, 175, 23);
+    color: rgb(255, 255, 255);
+    z-index: 3;
+  }
+
+  .tr2{
+    position: relative;
+    width: 45%;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .lastblock{
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+    margin: 30px;
+     margin-top:300px;
+      width: 95%; 
+      border-radius: 15px;
+  }
+
+  .plate3 {
+    background: white;
+    margin: 40px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 5px;
+    width: 400px;
+    height: 100px;
+  }
