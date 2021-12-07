@@ -1,0 +1,22 @@
+#b1{
+   
+  background-color: yellow;  
+  color: black;
+}
+
+#b3
+{
+    background-color: blue;  
+    color: white;
+}
+
+.b2
+{
+    background-color: rgb(255, 255, 255);  
+    color: red;
+}
+
+.pic{
+    height: 300px;
+    width: 300px;
+}

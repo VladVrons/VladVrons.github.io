@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Лаб6</title>
+    <link rel="stylesheet" href="Styles/main.css">    
+   
+</head>
+
+<body>
+ 
+
+  <form name='form' onsubmit='return validate()'>
+    ПІБ: <input type='text' name='name'> <span style='color:red' id='namef'></span><br />
+    Група: <input type='text' name='group'> <span style='color:red' id='groupf'></span><br />
+    Варіант: <input type='number' name='va'> <span style='color:red' id='vaf'></span><br />
+    Телефон: <input type='number' name='phone'> <span style='color:red' id='phonef'></span><br />
+    e-mail: <input type='text' name='email'> <span style='color:red' id='emailf'></span><br />
+    <input type='submit' onclick="info" value='Отправить форму'>
+    </form>
+
+
+    <div id="popup">
+      <div>Дані: </div>
+       <div id="1">ПІБ: Вронський Владислав Вячеславович</div>
+       <div id="2">Група: ІС-92</div>
+       <div id="3">Варіант: 24</div>
+       <div id="4">Телефон: 0955843730</div>
+       <div id="5">e-mail: slava.pro1605@gmail.com</div>
+    </div>
+  <br>
+  <br>
+
+  <input type="color" id="colorpick">
+  <div id="myDynamicTable"></div>
+  <script src="index.js"></script>  
+</body>
+</html>

@@ -1,0 +1,28 @@
+form {
+    font: 1em sans-serif;
+    max-width: 320px;
+  }
+ 
+  input[type="number"],
+  textarea,
+  fieldset {
+    width : 100%;
+    border: 1px solid #333;
+    box-sizing: border-box;
+  }
+  
+  input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+  
+  input:focus:invalid {
+    box-shadow: none;
+  }
+
+  #popup{
+    margin-top: 50px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid rgb(255, 0, 0);
+  }
+
