@@ -1,6 +1,5 @@
 
 
-// Ваша формула
 let y = x => 3*Math.cos(2*x);
 let scale = 20;
 let step = 1;
@@ -9,11 +8,11 @@ let ctx = cnvs.getContext('2d');
 
 ctx.lineWidth = 0.5;
 
-for (var i = step*scale; i < cnvs.width; i += step*scale) { //вертикальные
+for (var i = step*scale; i < cnvs.width; i += step*scale) {
   polyline('#7a7979', [[i, 0], [i, cnvs.height]]);
 }
 
-for (var i = step*scale; i < cnvs.height; i += step*scale) { //Горизонтальные
+for (var i = step*scale; i < cnvs.height; i += step*scale) { 
   polyline('#7a7979', [[0, i], [cnvs.width, i]]);
 }
 
@@ -24,10 +23,10 @@ for(let x = -cnvs.width/2; x<cnvs.width/2; x+=5) {
 }
 polyline('blue', pts);
 
-//Ось X 
+
 polyline('red', [[0, cnvs.height / 2], [cnvs.width, cnvs.height / 2]]);
 
-// ось Y
+
 polyline('green', [[cnvs.width / 2, 0], [cnvs.width / 2, cnvs.height]]);
 
 function polyline(color, pts) {
@@ -63,7 +62,8 @@ function retrieveFV(event){
    var xd = form.querySelector('[name="angle"]')
    var x = parseInt(xd.value ,10)
    var key = form.querySelector('[name="func"]')
-   console.log(trigonometry(x,key.value));
+   document.getElementById("mtxt").innerHTML=key.value+ '('+ x + '°) = ' + trigonometry(x,key.value);
+ 
 }
 form.addEventListener('submit',retrieveFV)
 

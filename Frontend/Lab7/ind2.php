@@ -1,7 +1,13 @@
-
-    $imja=$_POST["name"]; // прийом параметрів з форми 
-    $age=$_POST["age"]; $x=" Доброго дня!
-    $imja.";
-    if($age>50) echo "$x Ви включені в старшу групу.";
-    elseif($age>30)echo "$x Ви включені в групу середнього віку.";
-    else echo"$xВи включени до до молодіжної групи.";
+<HTML>
+<HEAD>
+<TITLE>Лаб 7 php</TITLE>
+</HEAD>
+<BODY>
+<?php
+echo "Замовлення прийнято";
+echo "<br>Меблі: $_POST[mebltype] ";
+echo "<br>Матеріал: $_POST[comptype] ";
+echo "<br>Кількість: $_POST[amount] ";
+?>
+</BODY>
+</HTML>

@@ -3,9 +3,10 @@ form {
     max-width: 320px;
   }
  
-  input[type="number"],
+  input,
   textarea,
   fieldset {
+    margin: 10px;
     width : 100%;
     border: 1px solid #333;
     box-sizing: border-box;
@@ -19,10 +20,4 @@ form {
     box-shadow: none;
   }
 
-  #popup{
-    margin-top: 50px;
-    width: 300px;
-    height: 400px;
-    border: 1px solid rgb(255, 0, 0);
-  }
-
+  

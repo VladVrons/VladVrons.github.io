@@ -9,20 +9,44 @@
 
 <body>
 
+<form method= "GET" action="ind2.php" style="margin: 50px;">
+  <select name="mebltype">
+    <option>Шафа</option>
+    <option>Стіл</option>
+    <option>Сервант</option>
+  </select>
+  <select name="comptype">
+    <option>Дуб</option>
+    <option>Горіх</option>
+    <option>Бук</option>
+  </select>
+  <input type="number" name="amount">
+  <input type="submit" name="submit" value="Замовити" />
+</form>
+
+
+
+ 
+
   <div class="trigonometry"> 
-    <form id="form" style="margin: 15px;">
-      <input type="number" name="angle" required>
+    <form id="form" style="margin: 50px;">
+      <h2 style="width: 3000px;">Кут більше 0 і меньше 90 градусів</h2>
+      <h4>Кут в градусах</h4>
+      <input type="number" min="0" max="90" name="angle" required>
       <select name="func">
         <option>sin</option>
         <option>cos</option>
         <option>tan</option>
       </select>
       <button type="submit">Calc</button>
+      <br>
+      <div id="mtxt"></div>
     </form>
   </div>
 
 
-  <canvas width=200 height=200 style="margin-top: 50px;"></canvas>
+  <h3>Графік функції 3*cos(2x)</h3>
+  <canvas width=200 height=200 style="margin: 50px;"></canvas>
   <script src="index.js"></script>  
 </body>
 </html>
